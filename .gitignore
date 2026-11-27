@@ -1,0 +1,22 @@
+@'
+venv/
+.venv/
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+dist/
+build/
+output/
+*.mp4
+*.ts
+*.mkv
+*.flv
+*.m3u8
+config.json
+.env
+.env.*
+.DS_Store
+Thumbs.db
+.vscode/
+'@ | Set-Content -Path .gitignore -Encoding UTF8
